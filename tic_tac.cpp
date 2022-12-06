@@ -19,7 +19,7 @@ inline void toggel_player(){  // changes the player and inline beacuase it need 
 
 
 void display(){  // Displays the matrix 
-    cout<<"*_* Tic Tac Tao *_*\n"<<endl;
+    cout<<"*_* Tic Tac Toe *_*\n"<<endl;
     for(int i=0; i<3; i++){
         for (int j=0; j<3; j++){
             cout<<matrix[i][j]<<"   ";
